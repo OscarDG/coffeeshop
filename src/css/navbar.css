@@ -1,0 +1,330 @@
+.navbar {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 98%;
+  height: 90px;
+}
+
+.menu-icon--mobile {
+  display: flex;
+  position: absolute;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+}
+
+.menu-icon--mobile span {
+  background: #2D2F33;
+  width: 40px;
+  height: 5px;
+  border-radius: 6px;
+  display: block;
+  position: absolute;
+  top: 45%;
+  right: 10%;
+  transform: translate(0%, -50%);
+  transition: transform 0.5s;
+}
+
+.menu-icon--mobile .line-1 {
+  transform: translate(0%, -15px);
+}
+
+.menu-icon--mobile .line-3 {
+  transform: translate(0%, 10px);
+}
+
+.open {
+  position: absolute;
+  z-index: 3;
+  top: 102px;
+  left: 300px;
+  width: 10px;
+  height: 10px;
+}
+
+.open .line-1 {
+  width: 25px;
+  height: 3px;
+  background-color: #ffffff;
+  transform: translate(0%, -50%) rotate(-45deg);
+}
+
+.open .line-3 {
+  width: 25px;
+  height: 3px;
+  background-color: #ffffff;
+  transform: translate(0%, -50%) rotate(45deg);
+}
+
+.open .line-2 {
+  width: 0;
+}
+
+.header-logo {
+  position: relative;
+  top: -5px;
+  display: flex;
+  width: 52px;
+  height: 44px;
+}
+
+.header-logo img {
+  width: 52px;
+  height: 52px;
+}
+
+.nav-menu {
+  display: none;
+  width: 430px;
+  height: 30px;
+}
+
+.shoping-cart--wrap {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  position: absolute;
+  top: 22px;
+  right: 15px;
+  width: 55px;
+  height: 40px;
+}
+
+.shoping-cart--wrap img {
+  position: relative;
+  top: 0px;
+  right: 0px;
+  display: flex;
+  align-items: center;
+  width: 33px;
+  height: 33px;
+}
+
+.shoping-cart--wrap span {
+  position: relative;
+  top: -12px;
+  right: 6px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding: 1px;
+  background-color: #556b2f;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 12px;
+}
+
+.drop-menu--mobile {
+  position: absolute;
+  z-index: 2;
+  top: 80px;
+  left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 340px;
+  background-color: #a0522d;
+  border-radius: 5px;
+}
+
+.drop-menu {
+  position: absolute;
+  top: 45px;
+  left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 290px;
+  height: 300px;
+}
+
+.drop-down--list li {
+  width: 250px;
+  height: 70px;
+  background-color: #cd853f;
+  list-style: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.drop-down--list li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 800px) {
+  .navbar {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    height: 90px;
+  }
+  .menu-icon--mobile {
+    display: none;
+    position: absolute;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+  }
+  .header-logo {
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    display: flex;
+    width: 52px;
+    height: 44px;
+  }
+  .header-logo img {
+    width: 52px;
+    height: 52px;
+  }
+  .nav-menu {
+    position: relative;
+    left: 40px;
+    display: flex;
+    width: 500px;
+    height: 30px;
+  }
+  .nav-menu--list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 30px;
+  }
+  .nav-menu--list li {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px;
+    width: 200px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+  }
+  .nav-menu--list li a {
+    width: 170px;
+    text-align: left;
+    text-decoration: none;
+    color: #2D2F33;
+  }
+  .nav-menu--list li a::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    right: 0px;
+    width: 100px;
+    height: 2px;
+    transform: scaleX(0%);
+    transition: transform 0.3s ease;
+    background-color: #B4F05B;
+  }
+  .nav-menu--list li a:hover::after {
+    transform: scaleX(100%);
+  }
+  .shoping-cart--wrap {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: absolute;
+    top: 22px;
+    right: 15px;
+    width: 55px;
+    height: 40px;
+  }
+  .shoping-cart--wrap img {
+    position: relative;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    width: 33px;
+    height: 33px;
+  }
+  .shoping-cart--wrap span {
+    position: relative;
+    top: -12px;
+    right: 6px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #556b2f;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12px;
+  }
+  .drop-menu--mobile {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 340px;
+    background-color: #a0522d;
+    border-radius: 5px;
+  }
+  .drop-menu--mobile {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: none;
+    width: 300px;
+    height: 400px;
+    background-color: #a0522d;
+    border-radius: 5px;
+  }
+  .drop-menu {
+    position: absolute;
+    top: 38px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 290px;
+    height: 300px;
+  }
+  .drop-down--list li {
+    width: 250px;
+    height: 70px;
+    background-color: #7d6b58;
+    list-style: none;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .drop-down--list li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=navbar.css.map */

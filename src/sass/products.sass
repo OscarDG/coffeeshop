@@ -1,0 +1,261 @@
+@import '_variables.sass'
+@import '_mixins.sass'
+
+//Mobile styles
+.products-section
+    display: flex
+    flex-direction: column
+    justify-content: center
+    width: 100%
+    height: 600px
+
+.products-title
+    position: relative
+    display: flex
+    left: 90px
+    justify-content: center
+    align-items: center
+    width: 200px
+    min-width: 250px
+    height: 80px
+    text-align: center
+    @include poppins-medium()
+
+
+.products-container
+    display: flex
+    flex-direction: column
+    width: 90%
+    height: 98%
+    align-items: center
+
+.cards-container
+    display: flex
+    justify-content: center
+    position: relative
+    top: 40px
+    width: 100%
+    height: 400px
+
+.slick-slider, .slick-initialized
+    width: 100%
+    height: 80%
+
+.slick-list
+    height: 350px
+
+
+.product-card
+    display: flex
+    justify-content: center
+    top: 0px
+    width: 250px
+    height: 300px
+    border-radius: 5px
+    background-color: $second_white
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.5))
+
+.product-card
+    .product-image
+        position: absolute
+        top: 15px
+        width: 220px
+        height: 150px
+
+.product-card
+    .product-image
+        position: absolute
+        top: 15px
+        width: 220px
+        height: 150px
+
+.product-card
+    .product-name
+        position: absolute
+        z-index: 2
+        top: 190px
+        width: 200px
+        height: 15px
+        text-align: center
+        @include poppins-regular()
+        color: $main_black
+
+.product-card
+    .product-weight
+        position: absolute
+        z-index: 2
+        top: 218px
+        width: 200px
+        height: 15px
+        text-align: center
+        @include poppins-light()
+        color: $main_black
+
+.product-cta
+    position: absolute
+    bottom: 10px
+    width: 130px
+    height: 35px
+    @include green_cta_button()
+    
+.product-cta:hover
+    @include green_cta_button--hover()
+
+//Desktop styles
+@media screen and ( min-width: 800px )
+    .products-section
+        display: flex
+        flex-direction: row
+        justify-content: center
+        align-self: center
+        width: 100%
+        height: 500px
+
+    .products-container
+        width: 98%
+        height: 98%
+        align-items: center
+
+    
+    .cards-container
+        display: flex
+        justify-content: center
+        position: relative
+        top: 40px
+        width: 600px
+        height: 420px
+        overflow: hidden
+    
+    .slick-slider, .slick-initialized
+        width: 100%
+        height: 85%
+
+    .slick-list
+        height: 450px
+
+    .product-card
+        position: absolute
+        display: flex
+        justify-content: center
+        top: 30px
+        width: 260px
+        height: 310px
+        border-radius: 5px
+        background-color: $second_white
+        filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.5))
+        
+    .product-card:hover
+        background-image: linear-gradient(to top right, $main_blue, $light_blue)
+
+    .product-card
+        .product-image
+            position: absolute
+            top: 15px
+            width: 220px
+            height: 150px
+
+    .product-card
+        .product-image
+            position: absolute
+            top: 15px
+            width: 220px
+            height: 150px
+
+    .product-name
+        position: absolute
+        z-index: 2
+        top: 190px
+        width: 200px
+        height: 15px
+        text-align: center
+        @include poppins-regular()
+        color: $main_black
+
+    .product-weight
+        position: absolute
+        z-index: 2
+        top: 218px
+        width: 200px
+        height: 15px
+        text-align: center
+        @include poppins-light()
+        color: $main_black
+
+    .product-cta
+        position: absolute
+        bottom: 10px
+        width: 130px
+        height: 35px
+        @include green_cta_button()
+    
+    .product-cta:hover
+         @include green_cta_button--hover()
+
+@media screen and ( min-width: 1150px )
+    .cards-container
+        display: flex
+        justify-content: center
+        position: relative
+        top: 40px
+        width: 1000px
+        height: 420px
+        overflow: hidden
+
+    .producct-card
+        position: absolute
+        display: flex
+        justify-content: center
+        top: 30px
+        width: 260px
+        height: 310px
+        border-radius: 5px
+        background-color: $second_white
+        filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.5))
+
+    .product-card:hover
+        background-image: linear-gradient(to top right, $main_blue, $light_blue)
+        
+
+    .product-card
+        .product-image
+            position: absolute
+            top: 15px
+            width: 220px
+            height: 150px
+
+    .product-card
+        .product-image
+            position: absolute
+            top: 15px
+            width: 220px
+            height: 150px
+
+    .product-name
+        position: absolute
+        z-index: 2
+        top: 190px
+        width: 200px
+        height: 15px
+        text-align: center
+        @include poppins-regular()
+        color: $main_black
+
+    .product-weight
+        position: absolute
+        z-index: 2
+        top: 218px
+        width: 200px
+        height: 15px
+        text-align: center
+        @include poppins-light()
+        color: $main_black
+
+    .product-cta
+        position: absolute
+        bottom: 10px
+        width: 130px
+        height: 35px
+        @include green_cta_button()
+    
+    .product-cta:hover
+         @include green_cta_button--hover()
