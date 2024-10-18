@@ -3,9 +3,10 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   width: 100%;
-  min-width: 370px;
+  min-width: 320px;
   height: 400px;
   object-fit: cover;
   background-size: cover;

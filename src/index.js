@@ -4,7 +4,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import './css/index.css';
 import App from './App';
 import About from './pages/about';
-import Products from './pages/products'
+import Mainproducts from './pages/main_products'
 import Partners from './pages/partners';
 import reportWebVitals from './reportWebVitals';
 
@@ -16,7 +16,7 @@ root.render(
         <Route index element={<App />} />
         <Route path='/home' element={<App />} />
         <Route path='/about' element={<About />} />
-        <Route path='/productos' element={<Products />} />
+        <Route path='/productos' element={<Mainproducts />} />
         <Route path='/aliados' element={<Partners />} />
       </Routes>
     </BrowserRouter>

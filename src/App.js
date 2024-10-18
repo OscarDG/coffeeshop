@@ -2,7 +2,7 @@ import './css/App.css';
 import './css/home_hero.css';
 import HomeHero from './elements/home_hero';
 import Navbar from './elements/navbar';
-import Products from './pages/products';
+import Products from './elements/products';
 
 function App() {
   return (
