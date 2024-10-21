@@ -1,6 +1,7 @@
 import './css/App.css';
 import './css/home_hero.css';
 import HomeHero from './elements/home_hero';
+import HomeVideo from './elements/home_video';
 import Navbar from './elements/navbar';
 import Products from './elements/products';
 
@@ -16,7 +17,8 @@ function App() {
       <section className='home-products--wrapp'>
         <Products />
       </section>
-      <section className='home-video'>
+      <section className='home-video--wrapp'>
+        <HomeVideo />
       </section>
       <section className='home-clients'>
       </section>

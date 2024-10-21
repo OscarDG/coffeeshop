@@ -1,0 +1,38 @@
+@import '_mixins.sass'
+@import '_variables.sass'
+
+.home-video--section
+    position: relative
+    display: flex
+    flex-direction: column
+    align-items: center
+    top: 30px
+    display: flex
+    width: 100%
+    height: 100%
+    background-image: linear-gradient(to right top, #769C3B, #B4F05B)
+
+.video-container
+    position: relative
+    top: 50px
+    width: 400px
+    min-width: 300px
+    height: 300px
+    border-radius: 5px
+    overflow: hidden
+
+.video-container
+    video
+        position: relative
+        width: 100%
+        height: 100%
+        background-color: blue
+
+.video-text
+    position: relative
+    top: 100px
+    width: 300px
+    height: 80px
+    @include poppins-medium()
+    text-align: center
+    color: $main_white
