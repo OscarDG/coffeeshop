@@ -49,7 +49,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
   .home-hero {
     position: relative;
     display: flex;
@@ -94,5 +94,21 @@
     text-decoration: none;
     color: #ffffff;
     font-family: "Poppins", sans-serif;
+  }
+}
+@media screen and (min-width: 769px) {
+  .home-hero {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 1000px;
+    height: 531px;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: -20%;
+    background-position-y: 80%;
+    background-image: url("../assets/images/café.jpg");
   }
 }/*# sourceMappingURL=home_hero.css.map */

@@ -7,9 +7,9 @@
     flex-direction: column
     align-items: center
     top: 30px
-    display: flex
     width: 100%
-    height: 100%
+    height: 100vh
+    min-height: 550px
     background-image: linear-gradient(to right top, #769C3B, #B4F05B)
 
 .video-container
@@ -28,7 +28,7 @@
         height: 100%
         background-color: blue
 
-.video-text
+.video-title
     position: relative
     top: 100px
     width: 300px
@@ -36,3 +36,65 @@
     @include poppins-medium()
     text-align: center
     color: $main_white
+
+.video-text
+    display: none
+
+@media screen and ( min-width: 769px )
+
+    .home-video--section
+        position: relative
+        display: flex
+        flex-direction: row
+        align-items: center
+        top: 30px
+        width: 100%
+        height: 100vh
+        min-height: 550px
+        background-image: linear-gradient(to right top, #769C3B, #B4F05B)
+
+    .video-container
+        position: absolute
+        top: 120px
+        left: 150px
+        width: 500px
+        min-width: 300px
+        height: 400px
+        border-radius: 5px
+        overflow: hidden
+
+    .video-title
+        position: absolute
+        right: 180px
+        top: 100px
+        width: 300px
+        height: 80px
+        @include poppins-medium()
+        text-align: center
+        color: $main_white
+    
+    .video-text
+        position: absolute
+        display: flex
+        right: 120px
+        top: 220px
+        width: 400px
+        height: 200px
+        text-align: center
+        @include poppins-regular()
+        color: $main_white
+    
+    .blue-cta
+        position: absolute
+        bottom: 70px
+        right: 250px
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 140px
+        height: 40px
+        background-color: $main_blue
+        border-radius: 10px
+        font-family: $main_font
+        color: $main_white
+        text-decoration: none
