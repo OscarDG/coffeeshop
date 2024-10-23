@@ -1,6 +1,5 @@
 import {useState} from 'react'
 import logo from '../assets/images/coffee-cups.png'
-import menu_icon from '../assets/icons/mobile_menu.svg'
 import shoping_cart from '../assets/icons/shoping-cart.svg'
 import Dropmenu from '../elements/dropmenu'
 import '../css/navbar.css'
@@ -40,7 +39,7 @@ function Navbar(){
                 <span className='line-3'></span>
             </div>
             <div className="header-logo">
-                <a href='/home'><img src= {logo} className="logo"/></a>
+                <a href='/home'><img src= {logo} className="logo" alt="header_logo"/></a>
             </div>
             <div className='nav-menu'>
                 <ul className='nav-menu--list'>
