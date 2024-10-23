@@ -1,0 +1,130 @@
+.App {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.App-header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-width: 425px;
+  height: 100px;
+  background-color: #ffffff;
+}
+
+.home-hero--wrapp {
+  position: relative;
+  display: flex;
+  width: 100%;
+  min-width: 425px;
+  height: 100vh;
+  max-height: 400px;
+}
+
+.home-products--wrapp {
+  position: relative;
+  display: flex;
+  width: 100%;
+  min-width: 425px;
+  height: 700px;
+}
+
+.home-video--wrapp {
+  position: relative;
+  top: 0px;
+  display: flex;
+  width: 100%;
+  min-width: 425px;
+  height: 500px;
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .App {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+  .App-header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-width: 768px;
+    height: 100px;
+    background-color: #ffffff;
+  }
+  .home-hero--wrapp {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100vh;
+    min-width: 768px;
+    height: 100vh;
+    min-height: 600px;
+  }
+  .home-products--wrapp {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-width: 768px;
+    height: 100vh;
+    min-height: 600px;
+  }
+  .home-video--wrapp {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 768px;
+    height: 100vh;
+    height: 600px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .App {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+  .App-header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-width: 900px;
+    height: 100px;
+    background-color: #ffffff;
+  }
+  .home-hero--wrapp {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-width: 900px;
+    height: 100vh;
+    min-height: 600px;
+  }
+  .home-products--wrapp {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-width: 900px;
+    height: 100vh;
+    min-height: 600px;
+  }
+  .home-video--wrapp {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-width: 950px;
+    height: 100vh;
+    min-height: 650px;
+  }
+}/*# sourceMappingURL=App.css.map */
