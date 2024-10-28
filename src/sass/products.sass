@@ -4,7 +4,6 @@
 //Mobile styles
 .products-section
     display: flex
-    position: absolute
     flex-direction: column
     justify-content: center
     align-items: center
@@ -39,7 +38,7 @@
     position: relative
     top: 40px
     width: 100%
-    height: 390px
+    height: 420px
 
 .slick-slider, .slick-initialized
     width: 70%
@@ -48,6 +47,21 @@
 
 .slick-list
     height: 350px
+
+.slick-prev
+    height: 30px !important
+    width: 30px !important
+    left: -65px !important
+    
+.slick-next
+    height: 30px !important
+    width: 30px !important
+    right: -65px !important
+
+.slick-prev:before, .slick-next:before
+    height: 30px !important
+    width: 30px !important
+    color: $main_green !important
 
 .product-card
     display: flex
@@ -390,7 +404,7 @@
 
     .products-banner
         position: absolute 
-        bottom: 50px 
+        bottom: 20px 
         display: flex
         flex-direction: row
         align-items: center

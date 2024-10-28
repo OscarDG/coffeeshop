@@ -116,7 +116,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 12px;
+  font-size: 0.8rem;
 }
 
 .drop-menu--mobile {
@@ -162,7 +162,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 20px;
+  font-size: 1.5rem;
 }
 
 @media screen and (min-width: 426px) and (min-width: 768px) {
@@ -219,6 +219,7 @@
     font-weight: 400;
     font-style: normal;
     font-weight: bold;
+    font-size: 1rem;
   }
   .nav-menu--list li a {
     width: 170px;
@@ -273,7 +274,7 @@
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 12px;
+    font-size: 0.7rem;
   }
   .drop-menu--mobile {
     position: absolute;
@@ -323,6 +324,6 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 15px;
+    font-size: 1rem;
   }
 }/*# sourceMappingURL=navbar.css.map */
