@@ -1,8 +1,8 @@
-import {useState} from 'react'
-import logo from '../assets/images/coffee-cups.png'
-import shoping_cart from '../assets/icons/shoping-cart.svg'
-import Dropmenu from '../elements/dropmenu'
-import '../css/navbar.css'
+import {useState} from 'react';
+import logo from '../assets/images/coffee-cups.png';
+import ShopingCart from '../assets/icons/shoping-cart.tsx';
+import Dropmenu from '../elements/dropmenu';
+import '../css/navbar.css';
 
 function Navbar(){
     const [navClass, setNavClass] = useState('menu-icon--mobile');
@@ -46,9 +46,9 @@ function Navbar(){
                     {navLinks}
                 </ul>
             </div>
-            <a href='#'>
+            <a href='/'>
                 <div className='shoping-cart--wrap'>
-                        <img src= {shoping_cart}/>
+                        <ShopingCart color= {"black"} size={40}/>
                         <span>1</span>
                 </div>
             </a>

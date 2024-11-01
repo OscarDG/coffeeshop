@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import '../css/products.css'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import {products} from './products_data'
+import {products} from '../data/products_data';
 
 function Products(){
 
@@ -44,6 +44,7 @@ function Products(){
           }
         ]
       };
+
         return(
             <>
             <div className="products-section">
@@ -53,7 +54,7 @@ function Products(){
                 <div className='products-container'>
                         <div className='cards-container'>
                         <Slider {...settings}>
-                            {products.map((product, index) => (
+                            {products.map(product => (
                                 <>
                                 <div key= {product.id} className='product-card'>
                                         <img class= 'product-image' src={product.image} alt='producto' />

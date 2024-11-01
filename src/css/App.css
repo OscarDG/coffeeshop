@@ -43,6 +43,18 @@
   height: 500px;
 }
 
+.home-footer--wrap {
+  position: relative;
+  top: 178px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-items: center;
+  width: 100%;
+  min-width: 425px;
+  height: 200px;
+}
+
 @media screen and (min-width: 425px) and (max-width: 768px) {
   .App {
     background-color: #ffffff;
@@ -84,6 +96,24 @@
     min-width: 768px;
     height: 100vh;
     height: 600px;
+  }
+  .home-footer--wrapp {
+    position: relative;
+    display: grid;
+    width: 100%;
+    min-width: 425px;
+    height: 200px;
+  }
+  .home-footer--wrap {
+    position: relative;
+    top: 80px;
+    display: grid;
+    grid-template-columns: 400px 1px 400px;
+    justify-items: center;
+    width: 100vh;
+    min-width: 768px;
+    height: 100vh;
+    min-height: 600px;
   }
 }
 @media screen and (min-width: 769px) {
@@ -127,5 +157,15 @@
     min-width: 950px;
     height: 100vh;
     min-height: 650px;
+  }
+  .home-footer--wrap {
+    position: relative;
+    top: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    width: 100%;
+    min-width: 950px;
+    height: 40vh;
   }
 }/*# sourceMappingURL=App.css.map */

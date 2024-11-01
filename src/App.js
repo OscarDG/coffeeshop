@@ -1,5 +1,6 @@
 import './css/App.css';
 import './css/home_hero.css';
+import { Footer } from './elements/footer';
 import HomeHero from './elements/home_hero';
 import HomeVideo from './elements/home_video';
 import Navbar from './elements/navbar';
@@ -22,7 +23,8 @@ function App() {
       </section>
       <section className='home-clients'>
       </section>
-      <footer>
+      <footer className='home-footer--wrap'>
+        <Footer />
       </footer>
     </div>
   );
