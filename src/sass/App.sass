@@ -43,15 +43,14 @@
 
 .home-footer--wrap
     position: relative
-    top: 178px
-    display: grid
-    grid-template-columns: 1fr
-    grid-template-rows: 1fr 1fr 1fr
-    justify-items: center
+    top: 180px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
     width: 100%
     min-width: 425px
-    height: 200px
-
+    height: 350px
 
 //Mid device styles
 @media screen and ( min-width: 425px ) and (max-width: 768px)
@@ -97,23 +96,20 @@
         height: 100vh
         height: 600px
 
-    .home-footer--wrapp
-        position: relative
-        display: grid
-        width: 100%
-        min-width: 425px
-        height: 200px
-
     .home-footer--wrap
         position: relative
-        top: 80px
-        display: grid
-        grid-template-columns: 400px 1px 400px
-        justify-items: center
-        width: 100vh
+        top: 180px
+        display: flex
+        flex-wrap: wrap
+        flex-direction: row
+        justify-content: space-around
+        align-items: center
+        width: 100%
         min-width: 768px
-        height: 100vh
-        min-height: 600px
+        height: 350px
+
+
+
 
 @media screen and ( min-width: 769px )
     .App
@@ -159,10 +155,12 @@
 
     .home-footer--wrap
         position: relative
-        top: 200px
-        display: grid
-        grid-template-columns: 1fr 1fr 1fr
-        justify-items: center
+        top: 180px
+        display: flex
+        flex-wrap: wrap
+        flex-direction: row
+        justify-content: space-around
+        align-items: center
         width: 100%
-        min-width: 950px
-        height: 40vh
+        min-width: 768px
+        height: 350px
