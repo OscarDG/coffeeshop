@@ -1,0 +1,58 @@
+.openCart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fffaf0;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+}
+
+.openCart-image {
+  width: 80px;
+  height: 85px;
+}
+
+.openCart-name {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 0.7em;
+}
+
+.openCart-prices {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.6em;
+  text-align: center;
+}
+
+.openCart-prices span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 40px;
+  background: #556b2f;
+  color: #ffffff;
+}
+
+.openCart-buttons {
+  width: 55px;
+  height: 25px;
+  border: none;
+  border-radius: 5px;
+  background: #cd853f;
+  color: #f4f4f4;
+  margin: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.5em;
+}
+
+.openCart-container--total {
+  font-family: "Poppins", sans-serif;
+}/*# sourceMappingURL=itemCart-open.css.map */

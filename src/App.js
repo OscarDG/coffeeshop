@@ -1,3 +1,4 @@
+import { CartProvider } from './contexts/products-context';
 import './css/App.css';
 import './css/home_hero.css';
 import { Footer } from './elements/footer';
@@ -16,12 +17,12 @@ function App() {
         <HomeHero />
       </section>
       <section className='home-products--wrapp'>
+      <CartProvider>
         <Products />
+      </CartProvider>
       </section>
       <section className='home-video--wrapp'>
         <HomeVideo />
-      </section>
-      <section className='home-clients'>
       </section>
       <footer className='home-footer--wrap'>
         <Footer />

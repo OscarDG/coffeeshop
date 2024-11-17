@@ -6,7 +6,6 @@ import "slick-carousel/slick/slick-theme.css";
 import {products} from '../data/products_data';
 
 function Products(){
-
     //slider setting
     var settings = {
         dots: true,
@@ -44,7 +43,6 @@ function Products(){
           }
         ]
       };
-
         return(
             <>
             <div className="products-section">
@@ -60,7 +58,7 @@ function Products(){
                                         <img class= 'product-image' src={product.image} alt='producto' />
                                         <h3 className='product-name'>{product.name}</h3>
                                         <p className='product-weight'>{product.weight}</p>
-                                        <a className='green-cta' href= '/store'>COMPRAR</a>
+                                        <a className='green-cta' href= '/products'>COMPRAR</a>
                                 </div>
                                 </>
                             ))}

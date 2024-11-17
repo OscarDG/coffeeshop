@@ -147,7 +147,7 @@
 
 .products-banner {
   position: absolute;
-  bottom: 0px;
+  bottom: 140px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -461,7 +461,7 @@
   }
   .products-banner {
     position: absolute;
-    bottom: 20px;
+    bottom: 130px;
     display: flex;
     flex-direction: row;
     align-items: center;

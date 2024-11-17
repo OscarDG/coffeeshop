@@ -4,9 +4,10 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import './css/index.css';
 import App from './App';
 import About from './pages/about';
-import Mainproducts from './pages/main_products'
+import Store from './elements/store';
 import Partners from './pages/partners';
 import reportWebVitals from './reportWebVitals';
+import Mainproducts from './pages/main-products';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

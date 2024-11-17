@@ -31,21 +31,19 @@
   display: flex;
   width: 100%;
   min-width: 425px;
-  height: 700px;
+  height: 900px;
 }
 
 .home-video--wrapp {
-  position: relative;
-  top: 100px;
   display: flex;
   width: 100%;
   min-width: 425px;
-  height: 500px;
+  height: 550px;
 }
 
 .home-footer--wrap {
   position: relative;
-  top: 180px;
+  top: 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -86,7 +84,7 @@
     width: 100%;
     min-width: 768px;
     height: 100vh;
-    min-height: 600px;
+    min-height: 700px;
   }
   .home-video--wrapp {
     position: relative;
@@ -99,7 +97,7 @@
   }
   .home-footer--wrap {
     position: relative;
-    top: 180px;
+    top: 0px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -141,7 +139,7 @@
     width: 100%;
     min-width: 900px;
     height: 100vh;
-    min-height: 600px;
+    min-height: 750px;
   }
   .home-video--wrapp {
     position: relative;
@@ -154,7 +152,7 @@
   }
   .home-footer--wrap {
     position: relative;
-    top: 180px;
+    top: 10px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -162,6 +160,6 @@
     align-items: center;
     width: 100%;
     min-width: 768px;
-    height: 350px;
+    height: 200px;
   }
 }/*# sourceMappingURL=App.css.map */

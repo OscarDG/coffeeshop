@@ -1,12 +1,9 @@
 .home-video--section {
-  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  top: 30px;
   width: 100%;
-  height: 100vh;
-  min-height: 550px;
+  height: 550px;
   background-image: linear-gradient(to right top, #769C3B, #B4F05B);
 }
 
@@ -41,6 +38,31 @@
 
 .video-text {
   display: none;
+}
+
+.blue-cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 40px;
+  background-color: #5B85F0;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.video-title {
+  position: relative;
+  top: 150px;
+  width: 300px;
+  height: 80px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  color: #ffffff;
 }
 
 @media screen and (min-width: 769px) {
