@@ -173,7 +173,8 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 90px;
+    height: 115px;
+    background: #fffaf0;
   }
   .menu-icon--mobile {
     display: none;
@@ -184,8 +185,8 @@
   }
   .header-logo {
     position: absolute;
-    top: 20px;
-    left: 25px;
+    top: 30px;
+    left: 40px;
     display: flex;
     width: 52px;
     height: 44px;
@@ -206,7 +207,7 @@
     justify-content: center;
     align-items: center;
     width: 90%;
-    height: 30px;
+    height: 35px;
   }
   .nav-menu--list li {
     position: relative;

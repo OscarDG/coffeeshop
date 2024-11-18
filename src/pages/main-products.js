@@ -1,18 +1,28 @@
 import React from "react";
 import { CartProvider } from "../contexts/products-context";
 import Store from "../elements/store";
-import '../css/store.css';
 import Cart from "../elements/store-cart";
-import ItemCart from "../elements/itemCart";
+import {Footer} from "../elements/footer";
+import '../css/store.css';
+import '../css/footer.css';
 
 function Mainproducts(){
     return(
-        <div className="mainProducts-container">
-            <CartProvider>
-                <Store />
-                <Cart />
-            </CartProvider>
-        </div>
+        <CartProvider>
+        <header>
+            <Cart />
+        </header>
+        <main>
+            <section className="mainProducts-container">
+                <div className="store-container">
+                    <Store />
+                </div>
+            </section>
+            <footer className='home-footer--wrap'>
+                <Footer />
+            </footer>
+        </main>
+        </CartProvider>
     );
 }
 

@@ -5,7 +5,8 @@ import "../css/itemCart-open.css"
 const ItemCart = ({ item }) => {
 
     const {deleteItemToCart, addItemToCart} = useContext(CartContext);
-    const {id} = item;
+  
+    const totalPrice = item.amount * item.price;
 
     return(
         <div className="openCart">
@@ -15,7 +16,7 @@ const ItemCart = ({ item }) => {
                     <p className="openCart-name">{item.name}</p>
                     <div className="openCart-prices">
                         <span>{item.amount}</span>
-                        <p>Total: ${item.amount * item.price}</p>
+                        <p>Total: ${totalPrice.toLocaleString('es-ES')}</p>
                     </div>
                     <div>
                         <button className="openCart-buttons" onClick={()=>addItemToCart(item)}>AGREGAR</button>

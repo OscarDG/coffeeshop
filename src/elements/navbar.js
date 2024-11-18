@@ -1,10 +1,11 @@
-import {useState} from 'react';
+import React, {useState} from 'react';
 import logo from '../assets/images/coffee-cups.png';
 import ShopingCart from '../assets/icons/shoping-cart.tsx';
 import Dropmenu from '../elements/dropmenu';
 import '../css/navbar.css';
 
 function Navbar(){
+
     const [navClass, setNavClass] = useState('menu-icon--mobile');
     const [isOpen, setIsOpen] = useState(false);
 
@@ -46,12 +47,12 @@ function Navbar(){
                     {navLinks}
                 </ul>
             </div>
-            <a href='/'>
-                <div className='shoping-cart--wrap'>
-                        <ShopingCart color= {"black"} size={40}/>
-                        <span>1</span>
-                </div>
-            </a>
+                <a href='/'>
+                    <div className='shoping-cart--wrap'>
+                            <ShopingCart color= {"black"} size={40}/>
+                            <span>1</span>
+                    </div>
+                </a>
             <div>
                 {isOpen && <Dropmenu />}
             </div>
