@@ -40,17 +40,16 @@ function Navbar(){
                 <span className='line-3'></span>
             </div>
             <div className="header-logo">
-                <a href='/home'><img src= {logo} className="logo" alt="header_logo"/></a>
+                <a href='/'><img src= {logo} className="logo" alt="header_logo"/></a>
             </div>
             <div className='nav-menu'>
                 <ul className='nav-menu--list'>
                     {navLinks}
                 </ul>
             </div>
-                <a href='/'>
+                <a href='/products'>
                     <div className='shoping-cart--wrap'>
-                            <ShopingCart color= {"black"} size={40}/>
-                            <span>1</span>
+                            <ShopingCart color= {"white"} size={20}/>
                     </div>
                 </a>
             <div>

@@ -45,7 +45,7 @@ function Products(){
       };
         return(
             <>
-            <div className="products-section">
+            <section className="products-section" id='products'>
                 <div className='products-title'>
                     <h2>Nuestros productos</h2>
                 </div>
@@ -69,7 +69,7 @@ function Products(){
                   <p className='products-banner-text'>Conoce las historias de nuestros campesinos</p>
                   <a className='green-cta' href='/partners'>DESCUBRE</a>
                 </div>
-            </div>
+            </section>
             </>
         );
     };

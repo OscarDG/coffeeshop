@@ -7,7 +7,7 @@ function HomeHero(){
                 <h1>Café cultivado por manos campesinas</h1>
             </div>
             <div className='hero-cta'>
-                <a href='#'>Descubre</a>
+                <a href='#products'>Descubre</a>
             </div>
         </div>
     );

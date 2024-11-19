@@ -160,6 +160,7 @@
     align-items: center;
     width: 100%;
     min-width: 768px;
-    height: 200px;
+    height: 100px;
+    box-shadow: 1px -1px 5px #7d6b58;
   }
 }/*# sourceMappingURL=App.css.map */
